@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
+  <meta name="description" content="MoRF avatars are created from short monocular videos and can be rendered in real-time (30+ FPS, 640x640px) on mobile devices">
   <meta property="og:title" content="MoRF: Mobile Realistic Fullbody Avatars from a Monocular Video"/>
   <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
   <meta property="og:url" content="URL OF THE WEBSITE"/>
@@ -14,8 +14,8 @@
   <meta property="og:image:height" content="630"/>
 
 
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <meta name="twitter:title" content="MoRF - Mobile Realistic Fullbody Avatars">
+  <meta name="twitter:description" content="MoRF avatars are created from short monocular videos and can be rendered in real-time (30+ FPS, 640x640px) on mobile devices">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
   <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -188,7 +188,7 @@
 
       <b><div class="has-text-centered">Rendering network training</div></b>
       
-      Given SMPL-X fits and segmentation masks we train <a href="https://niessnerlab.org/projects/thies2019neural.html">DNR</a>-based rendeing network. Our novelty is: for each training frame we overfit warping field (shown as <b><font color="#386515">(b)</font></b> in figure below) in UV space to compensate between-frame mesh fit misalignment:
+      Given SMPL-X fits and segmentation masks we train <a href="https://niessnerlab.org/projects/thies2019neural.html">DNR</a>-based rendering network. Our novelty is: for each training frame we overfit a warping field (shown as <b><font color="#386515">(b)</font></b> in figure below) in UV space to compensate between-frame mesh fit misalignment:
 
       <img src="static/images/main_scheme.png" alt="Main scheme"/>
 
